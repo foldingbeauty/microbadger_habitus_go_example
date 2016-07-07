@@ -1,4 +1,10 @@
 #use the golang base image
+LABEL org.label-schema.vcs-url="https://github.com/kamerblauwlicht/microbadger_habitus_go_example.git" \
+      org.label-schema.docker.dockerfile="/Dockerfile" \
+      org.label-schema.vcs-type="Git" \
+      org.label-schema.name="Habitus integration"
+
+
 FROM golang:1.6
 MAINTAINER Daniel van Gils
 
