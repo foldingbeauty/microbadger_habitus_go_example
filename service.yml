@@ -1,6 +1,6 @@
 services:  
   api:
-    git_url: http://github.com/cloud66-samples/go_api_habitus.git
+    git_url: http://github.com/kamerblauwlicht/microbadger_habitus_go_example.git
     git_branch: master
     use_habitus: true
     use_habitus_step: runtime
@@ -8,5 +8,3 @@ services:
       - container: 8080
         http: 80
         https: 443
-databases:
-  - mongodb
